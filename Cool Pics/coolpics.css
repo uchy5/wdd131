@@ -131,3 +131,38 @@ footer {
         margin: 0 auto;
     }
 }
+
+.menu.hide{
+    display: none;
+}
+
+.image-viewer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image-viewer img {
+    width: 60%;
+    max-height: 100%;
+    margin: 20vh auto;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 20vh;
+    right: 20px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
