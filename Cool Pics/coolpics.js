@@ -46,3 +46,4 @@ document.querySelector(".gallery").addEventListener("click", (event) => {
         });
     }
 });
+{}
