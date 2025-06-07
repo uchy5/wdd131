@@ -1,0 +1,49 @@
+/* form-demo.css */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  grid-row: 2/3fr;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.errors > p {
+  border: 1px solid red;
+  padding: 0.5em;
+}
+/* Style the select arrow for Safari */
+select::-webkit-inner-spin-button,
+select::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Style the select arrow for other browsers */
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.hide {
+  display: none; /* Initially hide the credit card input and label */
+}
+h3{
+    display:gird;
+    grid-template-columns: 2/3fr;
+    grid-template-rows: 2/3fr;
+  width:auto; /* Width of the box */
+  height: auto; /* Height of the box */
+  background-color: transparent; /* Background color */
+  border: 2px solid black; /* Border style */
+  border-radius: 10px; /* Rounded corners (optional) */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
