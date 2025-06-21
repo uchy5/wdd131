@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+}
+
+.find {
+  display: flex;
+  align-items: center;
+  background: #eee;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+.find input {
+  border: none;
+  flex-grow: 1;
+  font-size: 1rem;
+  background: transparent;
+  outline: none;
+}
+
+.find img {
+  width: 20px;
+  height: 20px;
+}
+
+.recipe-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.recipe-card img {
+  width: 400px;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.recipe-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  padding: 3rem;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.attribution {
+  margin: 0;
+}
+
+.social {
+  display:flex;
+  gap: 0.5rem;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 600px) {
+  main {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 599px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recipe-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recipe-card img {
+    width: 100%; 
+    max-width: 360px;
+    height: auto;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .recipe-info .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .recipe-info .social img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .recipe-info .attribution {
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 0.5rem;
+  }
+
+  .recipe-info .social + .attribution {
+    display: block;
+    width: 100%;
+  }
+}
