@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Fantasy Mob Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Kaushan+Script&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  
 </head>
 <body>
-    
+  <img class="logo" src="images/0c7e1577-213b-40cc-8a0b-5ad3ce1a56aa.jpg" alt="Site Logo">
+  <h1>Monster Libary</h1>
+  <input type="text" id="searchBar" placeholder="Search mobs..." />
+
+ <div id="mobContainer">
+  <div class="mob-card">
+    <img src="images/Goblin.png" alt="Goblin">
+    <h3>Goblin</h3>
+    <p>Small, cunning humanoid often found in tribes.</p>
+    <ul class="mob-stats">
+      <li><strong>Health:</strong> 35 HP</li>
+      <li><strong>Strength:</strong> 8</li>
+      <li><strong>Dexterity:</strong> 14</li>
+      <li><strong>Intelligence:</strong> 10</li>
+      <li><strong>Abilities:</strong>
+        <ul>
+          <li>Sneaky Strike: +2 bonus damage from stealth</li>
+          <li>Tribal Tactics: Gains dodge bonus near allies</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mob-card">
+    <img src="images/Orc.png" alt="Orc">
+    <h3>Orc</h3>
+    <p>Savage warrior race known for brute strength.</p>
+    <ul class="mob-stats">
+      <li><strong>Health:</strong> 90 HP</li>
+      <li><strong>Strength:</strong> 18</li>
+      <li><strong>Dexterity:</strong> 12</li>
+      <li><strong>Intelligence:</strong> 8</li>
+      <li><strong>Abilities:</strong>
+        <ul>
+          <li>Brutal Smash: Double damage on crits</li>
+          <li>Battle Roar: Buffs allies' attack briefly</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mob-card">
+    <img src="images/SkeletonWarrior.png" alt="Skeleton Warrior">
+    <h3>Skeleton Warrior</h3>
+    <p>Undead soldier risen through dark magic.</p>
+    <ul class="mob-stats">
+      <li><strong>Health:</strong> 60 HP</li>
+      <li><strong>Strength:</strong> 12</li>
+      <li><strong>Dexterity:</strong> 13</li>
+      <li><strong>Intelligence:</strong> 6</li>
+      <li><strong>Abilities:</strong>
+        <ul>
+          <li>Undead Resilience: Immune to poison/fear</li>
+          <li>Bone Shield: Reduces physical damage 25%</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mob-card">
+    <img src="images/Slime.png" alt="Gelatinous Cube">
+    <h3>Gelatinous Cube</h3>
+    <p>Transparent ooze that engulfs everything.</p>
+    <ul class="mob-stats">
+      <li><strong>Health:</strong> 80 HP</li>
+      <li><strong>Strength:</strong> 14</li>
+      <li><strong>Dexterity:</strong> 5</li>
+      <li><strong>Intelligence:</strong> 1</li>
+      <li><strong>Abilities:</strong>
+        <ul>
+          <li>Engulf: Traps and digests victims</li>
+          <li>Acidic Body: Constant acid damage</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mob-card">
+    <img src="images/Beholder.png" alt="Beholder">
+    <h3>Beholder</h3>
+    <p>Floating eye tyrant with deadly rays.</p>
+    <ul class="mob-stats">
+      <li><strong>Health:</strong> 120 HP</li>
+      <li><strong>Strength:</strong> 10</li>
+      <li><strong>Dexterity:</strong> 14</li>
+      <li><strong>Intelligence:</strong> 19</li>
+      <li><strong>Abilities:</strong>
+        <ul>
+          <li>Eye Rays: Random magical effects</li>
+          <li>Anti-Magic Cone: Nullifies spells in front</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mob-card">
+    <img src="images/Dragon.png" alt="Dragon">
+    <h3>Dragon</h3>
+    <p>Ancient and powerful creature of elemental breath.</p>
+    <ul class="mob-stats">
+      <li><strong>Health:</strong> 300 HP</li>
+      <li><strong>Strength:</strong> 24</li>
+      <li><strong>Dexterity:</strong> 16</li>
+      <li><strong>Intelligence:</strong> 20</li>
+      <li><strong>Abilities:</strong>
+        <ul>
+          <li>Elemental Breath: Fire, frost, or lightning cone</li>
+          <li>Wing Buffet: Knocks back foes</li>
+          <li>Terrifying Presence: Forces fear saves</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<script src="script.js"defer></script>
+<footer class="mob-footer">
+  <a href="index-2.html">Mob Making</a> |
+  <a href="site-plan.html">site</a>
+</footer>
 </body>
 </html>

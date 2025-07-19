@@ -1,0 +1,89 @@
+body {
+  font-family: "Merienda", cursive;
+  background-color: #1A1A1A;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: white;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  color: #FF6B1C;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+#searchBar {
+  padding: 10px;
+  width: 60%;
+  font-size: 1em;
+  border: 2px solid #B31728;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+#mobContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mob-card {
+  background-color: #fdf6e3;
+  border: 2px solid #B31728;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 15px;
+  width: 500px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  color: #333;
+}
+
+
+.mob-card:hover {
+  transform: scale(1.05);
+}
+
+.mob-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.mob-card h3 {
+  font-family: "Kaushan Script", cursive;
+  color: #B31728;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+
+.mob-card p {
+  font-family: "Merienda", cursive;
+  color: #333;
+  font-size: 1em;
+}
+.mob-stats {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 0.95em;
+  list-style-type: none;
+  padding: 0;
+  color: #333;
+}
+
+.mob-stats li {
+  margin-bottom: 6px;
+}
+
+.mob-stats li ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}

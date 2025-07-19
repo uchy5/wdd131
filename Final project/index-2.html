@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Create Your Own Mob</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Kaushan+Script&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="createMob.css" />
+</head>
+<body>
+  <header>
+    <h1>Create Your Own Mob</h1>
+    <h2>Design stats, upload images, and bring your monsters to life</h2>
+  </header>
+
+  <form id="mobForm" class="mob-card" style="background-color: #fdf6e3;">
+    <input type="text" id="mobName" placeholder="Mob Name" required /><br>
+    <textarea id="mobDescription" placeholder="Mob Description" required></textarea><br>
+
+    <input type="number" id="mobHealth" placeholder="Health (HP)" required /><br>
+    <input type="number" id="mobStrength" placeholder="Strength" required /><br>
+    <input type="number" id="mobDexterity" placeholder="Dexterity" required /><br>
+    <input type="number" id="mobIntelligence" placeholder="Intelligence" required /><br>
+
+    <textarea id="mobAbilities" placeholder="Abilities (comma-separated)" required></textarea><br>
+    <input type="file" id="mobImage" accept="image/*" required /><br>
+
+    <button type="submit" style="margin-top: 10px; background-color: var(--accent1-color); color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer;">Add Mob</button>
+  </form>
+
+  <hr>
+
+  <div id="customMobContainer"></div>
+
+  <footer class="mob-footer">
+    <p>Return to the Bestiary or Continue Your Quest:</p>
+    <a href="index.html">🧙‍♂️ Back to Bestiary</a> |
+    <a href="site-plan.html">Site</a>
+  </footer>
+
+  <script src="createMob.js"></script>
+</body>
+</html>
